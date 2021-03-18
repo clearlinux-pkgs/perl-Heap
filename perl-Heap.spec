@@ -4,7 +4,7 @@
 #
 Name     : perl-Heap
 Version  : 0.80
-Release  : 1
+Release  : 2
 URL      : https://cpan.metacpan.org/authors/id/J/JM/JMM/Heap-0.80.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/J/JM/JMM/Heap-0.80.tar.gz
 Summary  : No detailed summary available
@@ -91,14 +91,14 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.3/Heap.pm
-/usr/lib/perl5/vendor_perl/5.30.3/Heap/Binary.pm
-/usr/lib/perl5/vendor_perl/5.30.3/Heap/Binomial.pm
-/usr/lib/perl5/vendor_perl/5.30.3/Heap/Elem.pm
-/usr/lib/perl5/vendor_perl/5.30.3/Heap/Elem/Num.pm
-/usr/lib/perl5/vendor_perl/5.30.3/Heap/Elem/NumRev.pm
-/usr/lib/perl5/vendor_perl/5.30.3/Heap/Elem/Ref.pm
-/usr/lib/perl5/vendor_perl/5.30.3/Heap/Elem/RefRev.pm
-/usr/lib/perl5/vendor_perl/5.30.3/Heap/Elem/Str.pm
-/usr/lib/perl5/vendor_perl/5.30.3/Heap/Elem/StrRev.pm
-/usr/lib/perl5/vendor_perl/5.30.3/Heap/Fibonacci.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Heap.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Heap/Binary.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Heap/Binomial.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Heap/Elem.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Heap/Elem/Num.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Heap/Elem/NumRev.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Heap/Elem/Ref.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Heap/Elem/RefRev.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Heap/Elem/Str.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Heap/Elem/StrRev.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Heap/Fibonacci.pm
