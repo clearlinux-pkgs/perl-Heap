@@ -4,7 +4,7 @@
 #
 Name     : perl-Heap
 Version  : 0.80
-Release  : 8
+Release  : 9
 URL      : https://cpan.metacpan.org/authors/id/J/JM/JMM/Heap-0.80.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/J/JM/JMM/Heap-0.80.tar.gz
 Summary  : No detailed summary available
@@ -91,14 +91,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/Heap.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Heap/Binary.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Heap/Binomial.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Heap/Elem.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Heap/Elem/Num.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Heap/Elem/NumRev.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Heap/Elem/Ref.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Heap/Elem/RefRev.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Heap/Elem/Str.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Heap/Elem/StrRev.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Heap/Fibonacci.pm
+/usr/lib/perl5/*
