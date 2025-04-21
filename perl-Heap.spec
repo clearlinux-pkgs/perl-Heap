@@ -7,7 +7,7 @@
 #
 Name     : perl-Heap
 Version  : 0.80
-Release  : 16
+Release  : 17
 URL      : https://cpan.metacpan.org/authors/id/J/JM/JMM/Heap-0.80.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/J/JM/JMM/Heap-0.80.tar.gz
 Summary  : No detailed summary available
